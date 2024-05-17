@@ -11,6 +11,7 @@
 		2FD2CBDB2BF7896500C8A4EA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD2CBDA2BF7896500C8A4EA /* ContentView.swift */; };
 		2FD2CBDD2BF7896700C8A4EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FD2CBDC2BF7896700C8A4EA /* Assets.xcassets */; };
 		2FD2CBE02BF7896700C8A4EA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FD2CBDF2BF7896700C8A4EA /* Preview Assets.xcassets */; };
+		2FD2CBE82BF78D3900C8A4EA /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD2CBE72BF78D3900C8A4EA /* Product.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		2FD2CBDA2BF7896500C8A4EA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2FD2CBDC2BF7896700C8A4EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2FD2CBDF2BF7896700C8A4EA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2FD2CBE72BF78D3900C8A4EA /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				2FD2CBD82BF7896500C8A4EA /* sweater_shopApp.swift */,
 				2FD2CBDA2BF7896500C8A4EA /* ContentView.swift */,
+				2FD2CBE62BF78D1900C8A4EA /* Models */,
 				2FD2CBDC2BF7896700C8A4EA /* Assets.xcassets */,
 				2FD2CBDE2BF7896700C8A4EA /* Preview Content */,
 			);
@@ -65,6 +68,14 @@
 				2FD2CBDF2BF7896700C8A4EA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2FD2CBE62BF78D1900C8A4EA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2FD2CBE72BF78D3900C8A4EA /* Product.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				2FD2CBDB2BF7896500C8A4EA /* ContentView.swift in Sources */,
 				2FD2CBD92BF7896500C8A4EA /* sweater_shopApp.swift in Sources */,
+				2FD2CBE82BF78D3900C8A4EA /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
