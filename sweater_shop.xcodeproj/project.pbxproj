@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F0CB8082BF7DB44003272B7 /* ProductCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0CB8072BF7DB44003272B7 /* ProductCard.swift */; };
+		2F6746BF2C009B1500A0B071 /* ProductRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6746BE2C009B1500A0B071 /* ProductRow.swift */; };
+		2F851BA02BF9032700207EB3 /* CartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F851B9F2BF9032700207EB3 /* CartButton.swift */; };
+		2F851BA22BF907D300207EB3 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F851BA12BF907D300207EB3 /* CartView.swift */; };
+		2F96A8CD2C006B4A0046D48B /* CartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F96A8CC2C006B4A0046D48B /* CartManager.swift */; };
 		2FD2CBD92BF7896500C8A4EA /* sweater_shopApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD2CBD82BF7896500C8A4EA /* sweater_shopApp.swift */; };
 		2FD2CBDB2BF7896500C8A4EA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD2CBDA2BF7896500C8A4EA /* ContentView.swift */; };
 		2FD2CBDD2BF7896700C8A4EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FD2CBDC2BF7896700C8A4EA /* Assets.xcassets */; };
@@ -15,6 +20,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2F0CB8072BF7DB44003272B7 /* ProductCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCard.swift; sourceTree = "<group>"; };
+		2F6746BE2C009B1500A0B071 /* ProductRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductRow.swift; sourceTree = "<group>"; };
+		2F851B9F2BF9032700207EB3 /* CartButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartButton.swift; sourceTree = "<group>"; };
+		2F851BA12BF907D300207EB3 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		2F96A8CC2C006B4A0046D48B /* CartManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartManager.swift; sourceTree = "<group>"; };
 		2FD2CBD52BF7896500C8A4EA /* sweater_shop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sweater_shop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FD2CBD82BF7896500C8A4EA /* sweater_shopApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sweater_shopApp.swift; sourceTree = "<group>"; };
 		2FD2CBDA2BF7896500C8A4EA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -34,6 +44,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2F0CB8062BF7DA9A003272B7 /* Components  */ = {
+			isa = PBXGroup;
+			children = (
+				2F0CB8072BF7DB44003272B7 /* ProductCard.swift */,
+				2F851B9F2BF9032700207EB3 /* CartButton.swift */,
+				2F6746BE2C009B1500A0B071 /* ProductRow.swift */,
+			);
+			path = "Components ";
+			sourceTree = "<group>";
+		};
+		2F0CB8092BF7E921003272B7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2FD2CBDA2BF7896500C8A4EA /* ContentView.swift */,
+				2F851BA12BF907D300207EB3 /* CartView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		2FD2CBCC2BF7896500C8A4EA = {
 			isa = PBXGroup;
 			children = (
@@ -53,11 +82,13 @@
 		2FD2CBD72BF7896500C8A4EA /* sweater_shop */ = {
 			isa = PBXGroup;
 			children = (
+				2F0CB8092BF7E921003272B7 /* Views */,
 				2FD2CBD82BF7896500C8A4EA /* sweater_shopApp.swift */,
-				2FD2CBDA2BF7896500C8A4EA /* ContentView.swift */,
+				2F0CB8062BF7DA9A003272B7 /* Components  */,
 				2FD2CBE62BF78D1900C8A4EA /* Models */,
 				2FD2CBDC2BF7896700C8A4EA /* Assets.xcassets */,
 				2FD2CBDE2BF7896700C8A4EA /* Preview Content */,
+				2F96A8CC2C006B4A0046D48B /* CartManager.swift */,
 			);
 			path = sweater_shop;
 			sourceTree = "<group>";
@@ -148,9 +179,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F851BA22BF907D300207EB3 /* CartView.swift in Sources */,
 				2FD2CBDB2BF7896500C8A4EA /* ContentView.swift in Sources */,
+				2F96A8CD2C006B4A0046D48B /* CartManager.swift in Sources */,
 				2FD2CBD92BF7896500C8A4EA /* sweater_shopApp.swift in Sources */,
+				2F6746BF2C009B1500A0B071 /* ProductRow.swift in Sources */,
 				2FD2CBE82BF78D3900C8A4EA /* Product.swift in Sources */,
+				2F0CB8082BF7DB44003272B7 /* ProductCard.swift in Sources */,
+				2F851BA02BF9032700207EB3 /* CartButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
